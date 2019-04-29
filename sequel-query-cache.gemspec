@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob('spec/**/*')
   s.require_paths = ['lib']
 
-  s.add_dependency 'sequel', ['>= 3.42', '< 6.0']
+  s.add_dependency 'sequel', '>= 3.42'
 end
